@@ -1,20 +1,29 @@
-# Default, Defaults
-markdown: redcarpet
-highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+# Site settings
+title: *folio
+email: you@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  A simple, whitespace, helvetica based portfolio theme.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: twitter_username
+github_username:  github_username
 
-# Jekyll Defaults
-title: Little Big Blue
-email: your-email@domain.com
-description: A small and simple site I made to test out Jekyll. Watch out! I'm going to make a material design theme next!
-baseurl: "" # the subpath of your site, e.g. /blog
+# Build settings
+markdown: kramdown
 
-# Where can people find your site?
-url: "http://localhost:3000"
-# When developing, set this ^ equal to whatever localhost you're using
+highlighter: rouge
 
-# Socail Media links
-# Use these to link users to your organization's social media sites
-twitter:
-facebook:
-google:
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
+
