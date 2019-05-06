@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /example/
-title: example
-description: nob
+permalink: /poetry/
+title: poetry
+description: Showcase your writing, short stories, or poems. Replace this text with your description.
 ---
 
 <a href="http://liabogoev.com/-folio">Live Demo</a>
