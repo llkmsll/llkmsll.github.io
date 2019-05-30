@@ -1,5 +1,5 @@
 ---
-layout: algorithm
+layout: page
 permalink: /algorithm/
 title: algorithm
 description: C++ 알고리즘 문제풀이
