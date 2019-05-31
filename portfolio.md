@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CVA 동아리 프로젝트
+title: portfolio
 permalink: /portfolio/
 ---
 
