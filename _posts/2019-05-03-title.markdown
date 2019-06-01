@@ -1,7 +1,0 @@
-﻿---
-layout: post
-title:  블로그 시작
-date:   2019-05-03 16:40:16
-description: CVA동아리활동 블로그 생성
----
-CVA 동아리 활동을 위한 블로그 생성
