@@ -1,5 +1,5 @@
 ﻿---
-layout: post
+layout: default
 title: 백준 8201 Pilots
 date: 2019-05-21 17:48:00
 ---
